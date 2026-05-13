@@ -10,11 +10,11 @@ In the last step, you enabled secret protection and committed a sensitive file t
 
 1. Notice various options in the header bar that can help triage our alerts.
 
-   <img width="400" alt="list of filtered open alerts" src="../images/secret-scanning-alerts-list.png" />
+   <img width="400" alt="list of filtered open alerts" src="https://github.com/alirezachali/skills-introduction-to-secret-scanning/blob/main/.github/images/secret-scanning-alerts-list.png?raw=true" />
 
 1. Click the **Provider** dropdown and select `Amazon AWS` to filter the view. Notice only 2 of the 3 entries are listed now.
 
-   <img width="400" alt="list of filtered open alerts" src="../images/secret-scanning-alerts-filtered-aws.png" />
+   <img width="400" alt="list of filtered open alerts" src="https://github.com/alirezachali/skills-introduction-to-secret-scanning/blob/main/.github/images/secret-scanning-alerts-filtered-aws.png?raw=true" />
 
 ### :keyboard: Activity: Review a secret scanning alert
 
@@ -22,11 +22,11 @@ In the last step, you enabled secret protection and committed a sensitive file t
 
 1. At the top of the page, we can quickly view the alert status, when it was opened, the exposed secret, and some remediation steps.
 
-   <img width="400" alt="image" src="../images/alert-details-top-section.png" />
+   <img width="400" alt="image" src="https://github.com/alirezachali/skills-introduction-to-secret-scanning/blob/main/.github/images/alert-details-top-section.png?raw=true" />
 
 1. Scroll down slightly to the **Detected in X locations** area and you will see all the places where this secret was detected, including the `credentials.yml` file that you created. Notice that secret protection doesn't create duplicate alerts for the same secret found across multiple locations, for example in our learning issue.
 
-   <img width="400" alt="image" src="../images/alert-detected-locations.png" />
+   <img width="400" alt="image" src="https://github.com/alirezachali/skills-introduction-to-secret-scanning/blob/main/.github/images/alert-detected-locations.png?raw=true" />
 
 ### :keyboard: Activity: Close an alert
 
@@ -47,14 +47,14 @@ When secret protection finds a secret in your repository, the first thing you sh
 
    > 💡 **Tip:** This is important so the audit log can later provide critical information if an investigation is required.
 
-   <img width="250" alt="Screenshot of an alert being closed as revoked with a useful comment" src="../images/alert-closed-as-revoked.png" />
+   <img width="250" alt="Screenshot of an alert being closed as revoked with a useful comment" src="https://github.com/alirezachali/skills-introduction-to-secret-scanning/blob/main/.github/images/alert-closed-as-revoked.png?raw=true" />
 
 
 1. The alert status now displays `Closed` and the audit trail includes our explanation.
 
-   <img width="250" alt="image" src="../images/alert-status-closed.png" />
+   <img width="250" alt="image" src="https://github.com/alirezachali/skills-introduction-to-secret-scanning/blob/main/.github/images/alert-status-closed.png?raw=true" />
 
-   <img width="450" alt="image" src="../images/alert-audit-trail.png" />
+   <img width="450" alt="image" src="https://github.com/alirezachali/skills-introduction-to-secret-scanning/blob/main/.github/images/alert-audit-trail.png?raw=true" />
 
 1. With at least one of our alerts resolved, let's add a comment to inform Mona we are done with this step, so she can share the next one.
 

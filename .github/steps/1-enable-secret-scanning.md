@@ -36,7 +36,7 @@ Secret protection is available **for free for public repositories** on all plans
    - **Secret Protection:** `enabled`
    - **Push Protection:** `disabled`
 
-   <img width="400" alt="Secret protection configuration settings" src="../images/secret-protection-configuration-settings.png" />
+   <img width="400" alt="Secret protection configuration settings" src="https://github.com/alirezachali/skills-introduction-to-secret-scanning/blob/main/.github/images/secret-protection-configuration-settings.png?raw=true" />
 
 ### :keyboard: Activity: Commit a sensitive file
 
@@ -46,11 +46,11 @@ Now let's (accidentally) commit a sensitive file to see how it works. Don't worr
 
 1. Above the list of files, click the **Add file** dropdown and select **Create new file**.
 
-   <img width="350" alt="New file button" src="../images/add-new-file-button.png"/>
+   <img width="350" alt="New file button" src="https://github.com/alirezachali/skills-introduction-to-secret-scanning/blob/main/.github/images/add-new-file-button.png?raw=true"/>
 
 1. Enter the file name `credentials.yml` and copy following **inactive** example credentials into it.
 
-   <img width="400" alt="New file button" src="../images/credentials-yml-file-creation.png"/>
+   <img width="400" alt="New file button" src="https://github.com/alirezachali/skills-introduction-to-secret-scanning/blob/main/.github/images/credentials-yml-file-creation.png?raw=true"/>
 
    ```yaml
    default:
